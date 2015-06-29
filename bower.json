@@ -1,0 +1,25 @@
+{
+  "name": "survey",
+  "version": "1.0.0",
+  "authors": [
+    "Cenk Bircanoglu <cenk.bircanoglu@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.25",
+    "angular-route": "1.2.25",
+    "bootstrap": "~3.3.5",
+    "angular-resource": "1.2.25",
+    "angularjs-toaster": "~0.4.15"
+  },
+  "resolutions": {
+    "angular": "1.2.25"
+  }
+}

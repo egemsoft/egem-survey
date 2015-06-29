@@ -1,0 +1,16 @@
+{
+  "name": "survey",
+  "version": "1.0.0",
+  "description": "'Egem Survey'",
+  "main": "index.js",
+  "author": "Cenk Bircanoglu",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "http-server": "^0.6.1"
+  },
+  "scripts":{
+    "start": "http-server -a localhost -p 8001 -c-1"
+  }
+  
+}

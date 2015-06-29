@@ -1,0 +1,28 @@
+<h4>Question List</h4>
+
+<div class="col-xs-12 col-md-12">
+<table class="table table-condensed table-responsive table-striped">
+	<thead>
+		<tr>
+			<th>
+				Id
+			</th>
+			<th>
+				Question Text
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="question in questions">
+			<td>
+				{{question.id}}
+			</td>
+			<td>
+				{{question.question_text}}
+			</td>
+			<td><button class="btn btn-danger" ng-click="deleteQuestion(question.id)">Delete</button></td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
