@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('survey',['ngRoute','ngResource','toaster', 'ngAnimate'])
+angular.module('survey',['ngRoute','ngResource'])
 	.config(function ($routeProvider) {
 			$routeProvider
 				.when('/home', {

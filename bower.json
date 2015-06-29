@@ -20,6 +20,10 @@
     "angularjs-toaster": "~0.4.15"
   },
   "resolutions": {
-    "angular": "1.2.25"
+    "angular": "1.2.25",
+    "angular-route": "1.2.25",
+    "bootstrap": "~3.3.5",
+    "angular-resource": "1.2.25",
+    "angularjs-toaster": "~0.4.15"
   }
 }
